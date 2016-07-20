@@ -70,7 +70,7 @@
 <h1>
 <a id="data" class="anchor" href="#data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data</h1>
 
-<p>eAnalytics imports the <a href="https://github.com/paulgovan/energyr">energyr</a> R package, which contains data from <a href="www.ferc.gov">www.ferc.gov</a>. energyr contains the following datasets:</p>
+<p>eAnalytics imports the <a href="https://github.com/paulgovan/energyr">energyr</a> R package, which contains data from <a href="www.ferc.gov">www.ferc.gov</a>. This package contains the following datasets:</p>
 
 <ul>
 <li>
@@ -90,7 +90,7 @@
 </ul>
 
 <h1>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h1>
+<a id="tutorial" class="anchor" href="#tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutorial</h1>
 
 <h2>
 <a id="dashboard" class="anchor" href="#dashboard" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dashboard</h2>
@@ -102,15 +102,15 @@
 <h2>
 <a id="profile" class="anchor" href="#profile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Profile</h2>
 
-<p>The <em>Profile</em> tab contains a number of interactive maps of information about facilities for the selected industry. The screenshot below shows the <em>Profile</em> tab for the <em>Natural Gas</em> industry. </p>
+<p>The <em>Profile</em> tab contains a number of interactive maps with information about facilities for the selected industry. The screenshot below shows the <em>Profile</em> tab for the <em>Natural Gas</em> industry. </p>
 
-<p>Several options are currently available for customizing the maps. Choose a preferred <em>size</em> or <em>color</em> variable in the movable <code>wellPanel</code>, select different basemaps via the lower-right corner control, and click on a specific facility to view additional information. </p>
+<p>Multiple options are currently available for customizing the maps. Choose a preferred <em>size</em> or <em>color</em> variable in the movable <code>wellPanel</code>, select from different basemaps via the lower-right corner control, and click on a specific facility to view additional information. </p>
 
 <p><em>Note: industry profiles are currently only available for the Hydropower and Natural Gas industries.</em></p>
 
 <p><img src="https://github.com/paulgovan/eAnalytics/blob/master/inst/images/Profile2.png?raw=true" alt="Profile"></p>
 
-<p>For example, if interested in the LNG facilities located along the Gulf Coast, select the <em>Natural Gas</em> industry, then the <em>Profile</em> tab, then the <em>LNG Facilities</em> tab, and then finally zoom into the area of interest using the controls in the upper-left corner. To view the data overlay with satellite imagery, choose <em>Satellite</em> via the lower-right control. </p>
+<p>For example, if interested in the LNG facilities that are located along the Gulf Coast, select the <em>Natural Gas</em> industry, followed by the <em>Profile</em> tab, then the <em>LNG Facilities</em> tab, and finally zoom into the area of interest using the controls in the upper-left corner. To view the data overlay with satellite imagery, choose <em>Satellite</em> via the lower-right control. </p>
 
 <p><img src="https://github.com/paulgovan/eAnalytics/blob/master/inst/images/Profile3.png?raw=true" alt="Profile2"></p>
 
@@ -123,16 +123,21 @@
 
 <p><img src="https://github.com/paulgovan/eAnalytics/blob/master/inst/images/Performance2.png?raw=true" alt="Performance"></p>
 
-<p>For example, the screenshot above shows the <em>Performance</em> tab for the <em>Natural Gas</em> industry, which includes a histogram of the cost/mile (USD/mile) for all natural gas pipeline projects in the database and a heatmap of the correlation matrix of cost with other highly correlated variables. </p>
+<p>For example, the screenshot above shows the <em>Performance</em> tab for the <em>Natural Gas</em> industry, which shows a histogram of the cost/mile (USD/mile) KPI for all natural gas pipeline projects in the database and a heatmap of the correlation matrix for a number of highly correlated variables. </p>
 
 <h2>
 <a id="trends" class="anchor" href="#trends" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trends</h2>
 
-<p>The <em>Trends</em> tab contains interactive time-series charts of financial information for the selected industry. The screenshot below shows the <em>Trends</em> tab for the <em>Electric</em> industry. </p>
+<p>The <em>Trends</em> tab contains multiple interactive time-series charts of financial information for the selected industry. The screenshot below shows the <em>Trends</em> tab for the <em>Electric</em> industry. </p>
 
 <p><img src="https://github.com/paulgovan/eAnalytics/blob/master/inst/images/Trends2.png?raw=true" alt="Trends"></p>
 
-<p>However, the information above is not very useful as of yet because there are currently too many data series plotted. Alternatively, the information plotted in the time-series chart can be controlled through the <em>Data</em> tab. The <em>Data</em> tab contains interactive datatables of information for the selected industry. </p>
+<p>However, the information above is not very useful as of yet because there are currently too many data series plotted. Alternatively, the information in the time-series chart can be controlled through the <em>Data</em> tab. </p>
+
+<h2>
+<a id="data-1" class="anchor" href="#data-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data</h2>
+
+<p>The <em>Data</em> tab contains interactive datatables of information for the selected industry. </p>
 
 <p>Click on the <em>Data</em> tab and search, filter, sort the data as required. As an example, make a search for any company with the word "electric" in the name: </p>
 
@@ -145,13 +150,13 @@
 <h2>
 <a id="explorer" class="anchor" href="#explorer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Explorer</h2>
 
-<p>Finally, click the <em>Explorer</em> tab. The <em>Explorer</em> tab contains a dynamic motion chart for exploring several indicators over time, as made famous by Hans Rosling in his 2007 <a href="https://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty?language=en">TED talk</a>.</p>
+<p>The <em>Explorer</em> tab contains a dynamic motion chart for exploring several indicators over time, as made famous by Hans Rosling in his 2007 <a href="https://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty?language=en">TED talk</a>.</p>
 
 <p><em>Note: the Explorer tab is currently only available for the Natural Gas industry.</em></p>
 
 <p><img src="https://github.com/paulgovan/eAnalytics/blob/master/inst/images/Explorer2.png?raw=true" alt="Explorer2"></p>
 
-<p>As an example, the screenshot above shows a motion chart with cost on the x-axis, miles on the y-axis, and the type of project (conversion, expansion, lateral, new pipeline, and reversal) represented by the color of each bubble. Pressing the <em>Play</em> button would show how the relationship between project cost and miles of pipeline changes over time. </p>
+<p>As an example, the screenshot above shows a motion chart with cost on the x-axis, miles on the y-axis, and the type of project (conversion, expansion, lateral, new pipeline, and reversal) represented by the color of each bubble. Pressing the <em>Play</em> button would show how the relationship between project cost and miles of pipeline changes over time (per type of project). </p>
 
 <p>To learn more about the functionality of the motion chart, visit the  <a href="https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html">googleVis</a> site.</p>
 
